@@ -1,0 +1,17 @@
+<div class="welcome-container">
+  <h1> 🏥 Hospital Management System 🏥 </h1>
+  <p class="lead">Please select your role</p>
+
+  <div class=".button-container">
+  <a routerLink="/signup" [queryParams]="{ role: 'DOCTOR' }" class="btn btn-primary btn-lg">
+    👨‍⚕️ I am a Doctor
+  </a> <br><br>
+  <a routerLink="/signup" [queryParams]="{ role: 'PATIENT' }" class="btn btn-success btn-lg">
+    🧑‍🤝‍🧑 I am a Patient
+  </a> <br><br>
+  <a routerLink="/signup" [queryParams]="{ role: 'ADMIN' }" class="btn btn-danger btn-lg">
+     🛠️ I am an Admin
+  </a> <br><br>
+</div>
+
+</div>

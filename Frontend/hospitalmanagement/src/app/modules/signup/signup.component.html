@@ -1,0 +1,28 @@
+<div class="container mt-5">
+  <h2 class="text-center">Signup - {{ selectedRole }}</h2>
+
+  <form (ngSubmit)="onSignup()" class="mt-4 mx-auto" style="max-width:400px;">
+    <div class="mb-3">
+      <label>Name</label>
+      <input [(ngModel)]="name" name="name" class="form-control" required>
+    </div>
+    <div class="mb-3">
+      <label>Email</label>
+      <input [(ngModel)]="email" name="email" type="email" class="form-control" required>
+    </div>
+    <div class="mb-3">
+      <label>Password</label>
+      <input [(ngModel)]="password" name="password" type="password" class="form-control" required>
+    </div>
+
+    <div class="mb-3">
+      <label>Confirm Password</label>
+      <input [(ngModel)]="confirmPassword" name="confirmPassword" type="password" class="form-control" required>
+      <div *ngIf="password !== confirmPassword && confirmPassword" class="text-danger mt-2">
+        Passwords do not match
+      </div>
+    </div>
+    
+    <button class="btn btn-success w-100">Signup</button>
+  </form>
+</div>

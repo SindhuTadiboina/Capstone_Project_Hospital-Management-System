@@ -1,0 +1,52 @@
+/* Full height flexbox center */
+:host {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;   
+  background: white; 
+}
+
+/* Card-like container */
+.container {
+  width: 100%;
+  max-width: 450px;
+  background: lightblue;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  font-weight: bold;
+  color: #2c3e50;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+label {
+  font-weight: 600;
+  margin-bottom: 6px;
+  display: block;
+}
+
+input {
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 15px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+button {
+  margin-top: 15px;
+  border-radius: 8px;
+  font-size: 16px;
+  padding: 10px;
+  background: dodgerblue;
+  width: 100%;
+}
+
+.btn btn-success w-100{
+    background-color: dodgerblue;
+}

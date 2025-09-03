@@ -1,0 +1,15 @@
+.dashboard-container {
+  background: #f8f9fa;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+h2 {
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+.actions button {
+  min-width: 200px;
+}
