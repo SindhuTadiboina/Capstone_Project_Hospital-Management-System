@@ -1,8 +1,13 @@
 .dashboard-container {
-  background: #f8f9fa;
-  padding: 40px;
-  border-radius: 12px;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  text-align: center;
+  margin-top: 50px;
+}
+
+.actions {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
 }
 
 h2 {
@@ -10,6 +15,13 @@ h2 {
   color: #2c3e50;
 }
 
-.actions button {
-  min-width: 200px;
+p {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+button {
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 16px;
 }
